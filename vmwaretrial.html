@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Case study: Yi Zhang redesigned the VMware vSphere+ free trial sign-up flow, improving user discovery and conversion from trial to purchase.">
+  <meta name="author" content="Yi Zhang">
+
+  <title>Free Trial - Yi's Work</title>
+
+
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link rel="shortcut icon" href="monkey.ico" type="image/x-icon">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/pic.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+  <section id="projects" class="projects-section" style="padding: 6rem 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <img class="projectlogo" width="118" height="30" src="img/logos/vmw-logo-vmware-logo-grey.svg">
+          <hr class="star-primary">
+          <p class="worktitle" onContextMenu="return false" />Free Trial Sign Up</p>
+          <p onContextMenu="return false" /><span class="intro text-bottom">That's a significant milestone for VMware,
+            transitioning from traditional perpetual licensing to subscription-based models and embracing the Software
+            as a Service (SaaS) approach. Implementing a free trial is a crucial component in the product-led growth
+            strategy, allowing users to experience the value of the product firsthand. This initiative marks a pivotal
+            shift in how VMware engages with its users and drives adoption.</span>
+          </p>
+          <hr class="star-primary">
+          <div class="row">
+            <div class="col-lg-4">
+              <p onContextMenu="return false" /><span class="intro-title text-bottomspace">Timeline<br /></span>
+              <span class="intro">July 2021 ~ Oct 2021<br />Officially launched in June 2022</span>
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <p onContextMenu="return false" /><span class="intro-title text-bottomspace">My role<br /></span>
+              <span class="intro">Design Lead<br /> Interaction Design<br /> User Research<br /> Scope & outcome
+                alignment</span>
+              </p>
+            </div>
+            <div class="col-lg-4 ">
+              <p onContextMenu="return false" /><span class="intro-title text-bottomspace">Team<br /></span>
+              <span class="intro">Product Manager<br /> UI & Backend Engineering<br />Cross functional
+                stakeholders<br /> Content writer</span>
+              </p>
+            </div>
+          </div>
+          <hr class="star-primary text-bottom">
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Business Strategy</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">Managing workloads between on-premises vSphere and
+                the cloud for approximately 400,000 customers with perpetual licenses is a substantial undertaking.
+                Offering a unified management platform that spans both environments is crucial. VMware's shift from
+                perpetual licenses to subscriptions is not only a business transformation but also a strategic move to
+                enhance customer experience. This transition empowers customers with additional value-added services,
+                ultimately leading to a more seamless and efficient cloud management experience..</span>
+              </p>
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/biz-diagram.svg"
+                alt="VMware Free Trial — business strategy diagram" onContextMenu="return false" />
+            </div>
+          </div>
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Target User</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">The IT admin serves as the end user for vSphere+.
+                Previously, the sales team would take the initiative to approach customers with information about new
+                products and potential contracts. However, this communication was mostly one-sided, and sales
+                representatives found it challenging to actively engage with customers due to a lack of firsthand
+                experience with the products.<br />
+                On the other hand, IT admins faced difficulties in making informed decisions about adopting prospective
+                products. While they received overview documents, they seldom had the opportunity to actually use the
+                products and assess their performance with real data centers. This gap in practical experience made it
+                harder for them to evaluate and make informed choices about adopting new solutions.</span>
+              </p>
+
+              <div class="row">
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered"
+                    src="img/portfolio/content/vmwtrial/persona-background.svg" alt="User persona background profile"
+                    onContextMenu="return false" />
+                </div>
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered"
+                    src="img/portfolio/content/vmwtrial/persona-painpoint.svg" alt="User persona pain points"
+                    onContextMenu="return false" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">End-to-End Experience</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">With the shift in business model from sales-led to
+                product-led, there has been a notable change in the mindset of IT admins.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/e2e-flow.svg"
+                alt="VMware Free Trial — end-to-end user experience flow chart" onContextMenu="return false" />
+            </div>
+          </div>
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Identify the Problem</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">To gain a deeper understanding of the project's
+                objectives, I commenced a 1.5-hour brainstorming session with the product manager and engineering leads.
+                This allowed for a clear delineation of what customers can anticipate from the trial, what VMware aims
+                to accomplish through the trial, and what the optimal state of the trial should be.<br />
+                Given that the SaaS experience is a relatively uncharted territory due to the prevalence of on-premises
+                products at VMware, generating a trial experience demands alignment across various business units. To
+                gain valuable insights, I spearheaded <b>six research sessions</b>, engaging with a total of <b>45
+                  users</b> to discern their expectations. Users find the current experience overly complex. They are
+                seeking a streamlined solution from VMware to facilitate their access to vSphere SaaS.
+              </span>
+              </p>
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/free-trial-1.png"
+                alt="VMware Free Trial — identify the problem: current state analysis" onContextMenu="return false" />
+
+            </div>
+          </div>
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Competitive Research</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">To get insights into industry-standard free trial
+                offerings for enterprise products, particularly within the VMware ecosystem, I undertook a thorough
+                research session. This involved referencing trial flows from leading public cloud vendors and
+                collaborating closely with product teams that already had established free trial models. This
+                collaborative effort proved invaluable in crystallizing the vision for our own free
+                trial.<br />Researching trials from other vendors provided valuable insights, highlighting both
+                strengths and weaknesses. This inspired me to create an illustrated trial flow for vSphere+.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered"
+                src="img/portfolio/content/vmwtrial/competitor-research-2.png"
+                alt="VMware Free Trial — competitive research findings" onContextMenu="return false" />
+            </div>
+          </div>
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Design Principles</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">In light of the valuable insights garnered from our
+                research sessions, we defined a precise goal for the trial experience. Our primary objective was to
+                empower users to efficiently activate the trial service, establish secure connections with their
+                on-premises data centers, and effortlessly delve into the vSphere+ services via an intuitively designed
+                onboarding process. This goal remained our steadfast compass throughout the entire development
+                phase.</span>
+              </p>
+              <div class="row">
+                <div class="col-sm-4" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/goal-1.svg"
+                    alt="Design principle: streamlined trial activation" onContextMenu="return false" />
+                </div>
+                <div class="col-sm-4" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/goal-2.svg"
+                    alt="Design principle: secure data center connections" onContextMenu="return false" />
+                </div>
+                <div class="col-sm-4" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/goal-3.svg"
+                    alt="Design principle: intuitive onboarding experience" onContextMenu="return false" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Flow Chart Iterations</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">To gain a clearer understanding and visualize the
+                workflow, I initiated a collaborative session with the Product Manager and Engineering leads. Through
+                scoping out the requirements with the stakeholders, we identified several challenges within the
+                journey:<br />
+                1. Users may experience prolonged wait times from trial request to approval, potentially leading to
+                drop-offs, as indicated by the marketing team's research.<br />
+                2. Users might face concerns when transitioning from licensing to subscription-based entitlements,
+                particularly in relation to their existing environments.<br />
+                3. There is a concern among users about potential loss of access to their data centers at the end of the
+                trial if they opt not to purchase a subscription. This is deemed unacceptable from the customers'
+                perspective.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered  img-bottomspace text-bottom"
+                src="img/portfolio/content/vmwtrial/workflow-old.svg"
+                alt="VMware Free Trial — original workflow diagram" onContextMenu="return false" />
+
+              <p onContextMenu="return false" /><span class="intro">To streamline the journey and address the issues
+                identified in the initial map, I collaborated closely with stakeholders across various business units.
+                By leveraging insights gleaned from customer research, we successfully reduced the number of steps in
+                the flow by <b>30%</b> compared to the original process. This enhancement significantly improved the
+                overall user experience.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered img-bottomspace text-bottom"
+                src="img/portfolio/content/vmwtrial/workflow-new.svg"
+                alt="VMware Free Trial — redesigned workflow diagram" onContextMenu="return false" />
+            </div>
+          </div>
+
+
+
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/01-1.png"
+                alt="VMware Free Trial — design iteration: request or start trial" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">'Request Trial' or 'Start Trial'</p>
+                <p class="blogintro text-black-50 mb-0"><img style="max-width: 5%; height: auto;"
+                    src="img/portfolio/content/vmwtrial/warning.svg" alt="" onContextMenu="return false" />
+                  <b>Request Trial:</b><br />For users: it takes longer to get approval after submitting
+                  requests<br />For VMware: It's easier to handle and also save costs<br /><img
+                    style="max-width: 5%; height: auto;" src="img/portfolio/content/vmwtrial/check.svg" alt=""
+                    onContextMenu="return false" /> <b>Start Trial:</b><br />For Users: It saves time<br />For VMware:
+                  it icreases cost but also increases visibility<br />Therefore, I recommend streamlining the workflow
+                  and initiating a two-month trial period to assess the outcomes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Connect Data to the Cloud</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">Onboarding doesn't occur magically. The challenge
+                lies in where and how we can assist users in establishing the connection. The quickest and most
+                efficient way to connect on-premises data centers is through the cloud. However, users are hesitant to
+                share their data center credentials and connect them directly from the cloud due to security
+                concerns.<br />
+                With security as a primary design principle, we developed on-premises software that is entirely managed
+                and controlled by the users. This software facilitates the establishment of a connection between the
+                on-premises data center and the cloud. The Cloud Gateway serves as the bridge, offering users the
+                potential to experience cloud services while maintaining security.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered text-bottom"
+                src="img/portfolio/content/vmwtrial/cloud-gateway.png"
+                alt="VMware Free Trial — cloud gateway architecture diagram" onContextMenu="return false" />
+            </div>
+          </div>
+
+
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/02.png"
+                alt="VMware Free Trial — onboard vSphere+ with customer-managed cloud gateway"
+                onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Onboard vSphere+ by Using Customer-managed Cloud Gateway</p>
+                <p class="blogintro text-black-50 mb-0">I aimed to streamline the gateway onboarding process and offer
+                  users a clear overview of the subsequent steps before they begin.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/02-1.png"
+                alt="VMware Free Trial — pair cloud gateway to VMware Cloud" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Pair Cloud Gateway to VMware Cloud</p>
+                <p class="blogintro text-black-50 mb-0">User is able to use a secure pair code to pair the Cloud Gateway
+                  to
+                  VMware Cloud.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/02-2.png"
+                alt="VMware Free Trial — connect data centers to onboard vSphere+" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Connect Data Centers to Onboard vSphere+</p>
+                <p class="blogintro text-black-50 mb-0">After users connect the data centers to VMware Cloud. They are
+                  able to manage the entire on-prem infrastructure from the single pane of glass.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/03.png"
+                alt="VMware Free Trial — challenge of guiding users" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Challenge of Guiding Users</p>
+                <p class="blogintro text-black-50 mb-0">In the absence of an onboarding guide, the sales team
+                  traditionally provided user support during onboarding. To address this, I explored various options to
+                  create a comprehensive and user-friendly guideline for product familiarization.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Onboarding Explorations</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">I conducted extensive user testing and found that
+                vSphere+ users are already acquainted with the data. What they seek is a swift grasp of available
+                information. In this context, steppers and widgets might not be the most suitable design patterns.<br />
+                On the other hand, IT admins faced challenges in making informed decisions about adopting prospective
+                products. While they had access to overview documents, they seldom had the opportunity to use them in
+                real-world scenarios or assess performance with actual data centers.</span>
+              </p>
+
+              <div class="row">
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/03-1.png"
+                    alt="VMware Free Trial — onboarding exploration variant 1" onContextMenu="return false" />
+                </div>
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/03-2.png"
+                    alt="VMware Free Trial — onboarding exploration variant 2" onContextMenu="return false" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/04.png"
+                alt="VMware Free Trial — integrated onboarding experience design" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Integrated Onboarding Experience</p>
+                <p class="blogintro text-black-50 mb-0">After careful consideration, I decided to move forward with
+                  option 3, which seamlessly integrates the onboarding guide with VMware's support feature. This
+                  empowers users to consistently educate new team members using this valuable resource.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row align-items-center img-bottomspace text-bottom">
+            <div class="col-lg-7 ml-auto">
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/05.png"
+                alt="VMware Free Trial — engineering pushback iteration" onContextMenu="return false" />
+            </div>
+            <div class="col-lg-5 mr-auto text-bottom">
+              <div class="featured-text-white text-center text-lg-left">
+                <p class="title">Engineering Pushback</p>
+                <p class="blogintro text-black-50 mb-0">'The users cannot go back to the previous state after the trial
+                  expires. Can you design something to inform users.'' Apparently it doesn't sound acceptable. So I
+                  conducted research sessiosn with users. The common feedback was 'I need to consider should I even try
+                  the product if my data center cannot go back to the previous state.' With the stronger voice from the
+                  end users, I was able to work with the product manager and engineering to make the worklfow right.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Motion Design and Delight</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">Users' interaction with VMware products tends to be
+                text-heavy. While it doesn't hinder their tasks, enhancing the visual design could make the experience
+                more enjoyable. Introducing motion design as part of the first trial service for traditional on-premises
+                customers at VMware, I initiated a design-centric project that received full support from product
+                management and engineering.</span>
+              </p>
+              <div class="row">
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/motion-1.gif"
+                    alt="VMware Free Trial — motion design animation" onContextMenu="return false" />
+                </div>
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/motion-2.gif"
+                    alt="VMware Free Trial — motion design animation" onContextMenu="return false" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Accessibility Check</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">The final step involves verifying that all designs
+                comply with accessibility guidelines, including motion. In our mockups, we conduct an accessibility
+                check directly on Figma. Regarding motion graphics, I co-founded the initial motion design library,
+                which incorporates motion accessibility guidelines. This ensures that the motion aligns with the
+                established criteria when we deliver the final output to the engineering team.</span>
+              </p>
+              <div class="row">
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder videoborder img-fluid img-centered"
+                    src="img/portfolio/content/vmwtrial/accessibility-1.png"
+                    alt="VMware Free Trial — accessibility check: color contrast" onContextMenu="return false" />
+                </div>
+                <div class="col-sm-6" align="center">
+                  <img class="curveborder videoborder img-fluid img-centered"
+                    src="img/portfolio/content/vmwtrial/accessibility-2.png"
+                    alt="VMware Free Trial — accessibility check: component review" onContextMenu="return false" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Metrics</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro"><b>1. Adoption:</b> Continuously monitor the number
+                of both new and existing customers who have activated the free trial.<br /><b>2. Revenue:</b>
+                The primary objective of the trial is to drive revenue growth. Evaluating the impact on revenue provides
+                a crucial measure of the trial's value.<br /><b>3. Satisfaction:</b>‘Biggest change is the culture
+                around how things can be done which
+                was the initial hurdle.’<br />‘It is much easier to do POC where we can try something out in the product
+                and we don’t have to plan out systems in our data center which changes how we try products.’<br />‘I
+                love to just activate the trial at home!’</span>
+              </p>
+              <img class="curveborder img-fluid img-centered" src="img/portfolio/content/vmwtrial/data.svg"
+                alt="VMware Free Trial — success metrics" onContextMenu="return false" />
+            </div>
+          </div>
+
+          <div class="row img-bottomspace">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Learnings</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro"><b>1. Translate vague requirements with customers’
+                  voices:</b> Conversations with customers help me understand the
+                scope and requirements better. The good approach is to shape the story with the product managers instead
+                of executing what they shared;<br /><b>2. Collaborate with cross functional stakeholders:</b> Get
+                algined with broader teams can really
+                help improve the possibility to unblock a lot of capabilities and it will eventually benefical to
+                customers;<br /><b>3. Embrace uncertainty:</b> You will never know how the design will be evolved over
+                time. Try to talk with more users and dive deeper to that
+                domain.</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 ml-auto">
+              <p onContextMenu="return false" /><span class="intro-title">Design at Scale</span>
+              </p>
+            </div>
+            <div class="col-lg-9 mr-auto">
+              <p onContextMenu="return false" /><span class="intro">Following the completion of the free trial
+                workstream for vSphere+, I noticed that not all products or services offered a free trial, and there was
+                a lack of reference to a North star or vision. To address this, I took the lead in forming a small free
+                trial task force with the aim of standardizing trial experiences across the entire VMware product
+                family. Starting in early 2022, we began aligning the free trial workflows with other designers and
+                assisting other products in adopting the free trial framework, a process that continued into Q2
+                2022.</span>
+              </p>
+              <img class="curveborder img-fluid img-centered img-bottomspace"
+                src="img/portfolio/content/vmwtrial/trial-framework.jpg"
+                alt="VMware Free Trial — design at scale: trial framework" onContextMenu="return false" />
+              <p onContextMenu="return false" /><span class="intro">Building on the success of the vSphere+ trial and
+                the mature framework developed by the trial task force, we scaled the trial flow and integrated it into
+                our latest flagship offering, VMware Cloud Editions. This product was announced at VMware Explore in
+                August 2023 and is set to launch in late November.</span>
+              <img class="curveborder img-fluid img-centered img-bottomspace"
+                src="img/portfolio/content/vmwtrial/cp-trial.png" alt="VMware Free Trial — control panel trial design"
+                onContextMenu="return false" />
+              </p>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-lg-6 ml-auto">
+              <a href="motion-design.html" class="btn btn-lg btn-outline" id="last">
+                <i class="fa fa-fw fa-angle-left"></i>Last: Motion Design</a>
+            </div>
+            <div class="col-lg-6 mr-auto">
+              <a href="vmwareoperations.html" class="btn btn-lg btn-outline" id="next">
+                Next: Infrastructure Operations<i class="fa fa-fw fa-angle-right"></i></a>
+            </div>
+          </div>
+  </section>
+  </div>
+  </div>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/9a9ef6bf8a.js" crossorigin="anonymous"></script>
+  <script src="js/logged.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/style.js"></script>
+
+</body>
+
+</html>
