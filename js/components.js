@@ -49,7 +49,7 @@
     '      </div>',
     '      <div class="row">',
     '        <div class="col-md-12">',
-    '          Copyright &copy; 2026 Yi Z. Made with <i class="fa-solid fa-heart" style="font-size:16px;color:#0abab5"></i> in California',
+    '          Copyright &copy; 2026 Yi Zhang. Made with <i class="fa-solid fa-heart" style="font-size:16px;color:#0abab5"></i> in California',
     '        </div>',
     '      </div>',
     '    </div>',
