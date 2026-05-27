@@ -1,5 +1,7 @@
 # Yi Zhang — Design Portfolio
 
+<img src="img/profile.svg" alt="Yi Zhang" width="80">
+
 Personal portfolio of Yi Zhang, Product Designer at VMware by Broadcom.
 Crafting enterprise UX experiences in cloud computing, fintech, and hospitality.
 
