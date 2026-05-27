@@ -79,4 +79,6 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## License
 
-MIT
+© 2026 Yi Zhang. All Rights Reserved.
+
+No part of this project — including code, design, images, or written content — may be copied, reproduced, or redistributed without explicit written permission.
